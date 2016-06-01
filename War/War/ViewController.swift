@@ -35,6 +35,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    /*
+    * Upon pressing the Play Button, it will deal the cards
+    * and increment the score.
+    */
     @IBAction func playRoundTapped(sender: UIButton) {
         
         //random first card
